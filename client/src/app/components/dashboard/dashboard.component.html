@@ -1,0 +1,17 @@
+	 <h2 class="page-header">Welcome to Dashboard screen</h2>
+     <div class="container">
+	 	<div><label> Email Id: {{email}} </label></div>
+	 	<!-- <div><label> Date Of Birth : {{dateofbirth | date: 'MM-dd-yyyy'}}</label></div> -->
+	 </div>
+	 <br><br>
+	 <div  class="container">
+	 	 <div class="form-group">
+		    <div><strong>Please select a new date to update your date of Birth and click on submit.</strong></div><br>
+		   <!-- <ng2-datepicker [options]="options" [(ngModel)]="newdateofbirth" name="dateofbirth"></ng2-datepicker> -->
+		  </div>
+		  <input type="submit" class="btn btn-primary" value="Submit" (click)="onSubmit()">
+		   <input type="button" class="btn btn-primary" value="Logout" (click)="onLogout()">
+	 </div>
+	
+
+   
